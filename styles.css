@@ -1,0 +1,42 @@
+/* Reset and basic styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Navigation bar */
+  nav {
+    /* Styles for navigation bar */
+  }
+  
+  /* Product section */
+  #products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    /* Styles for individual product cards */
+  }
+  
+  /* Offer section */
+  #offers {
+    /* Styles for the offer section */
+  }
+  
+  /* Footer */
+  footer {
+    /* Styles for the footer */
+  }
+  
+  /* Media queries for different screen sizes */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
+  
+  @media (max-width: 480px) {
+    /* Adjust styles for very small screens */
+  }
+  
